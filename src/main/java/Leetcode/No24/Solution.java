@@ -4,21 +4,17 @@ package Leetcode.No24;
 
 class Solution {
     public ListNode swapPairs(ListNode head) {
-        ListNode i = head;
-        ListNode result = new ListNode(0);
-        ListNode t = result;
-        while (i != null) {
-            ListNode swap = i;
-            i = i.next;
-            ListNode next = i.next;
-            swap.next = next;
-            i.next = swap;
-            t.next = i;
-            i = next;
-            t = next;
+        ListNode pre = new ListNode(0);
+        ListNode result = pre;
+        while (head != null && head.next != null) {
+            ListNode next = head.next.next;
+            pre.next = head.next;
+            pre = head;
+            head.next.next = head;
+            head = next;
         }
-
-        return result;
+        pre.next = head;
+        return result.next;
     }
 }
 
