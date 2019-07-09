@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Stack;
 
 class Solution {
-    static Map<Character,Character> map = new HashMap<>();
+    static Map<Character,Character> map = new HashMap<Character,Character>();
     static {
         map.put(')','(');
         map.put(']','[');
@@ -15,7 +15,7 @@ class Solution {
 
         if(s.length() % 2 != 0) return false;
 
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack<Character>();
 
         for(char i : s.toCharArray()) {
             if(map.containsKey(i)) {
