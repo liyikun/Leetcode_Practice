@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19881861-6919-4db6-8255-03ac4cfa059a" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/Leetcode/ABC/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Leetcode/No29/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Leetcode/No20/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leetcode/No20/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Leetcode/No28/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leetcode/No28/Solution.java" afterDir="false" />
@@ -18,15 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode/NO21/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="27" selection-start-line="5" selection-start-column="7" selection-end-line="31" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode/No23/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,16 +76,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode/ABC/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="148">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#206#226#0" expanded="true" />
                 <element signature="e#287#304#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode/No29/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -142,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Leetcode/No28/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/Leetcode/No20/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/Leetcode/ABC/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Leetcode/No29/Solution.java" />
       </list>
     </option>
   </component>
@@ -154,11 +156,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="805" />
-    <option name="y" value="95" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="427" />
+    <option name="y" value="77" />
+    <option name="width" value="1937" />
+    <option name="height" value="1097" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,15 +316,15 @@
       <workItem from="1562472501503" duration="1209000" />
       <workItem from="1562481921142" duration="599000" />
       <workItem from="1562511323004" duration="8394000" />
-      <workItem from="1562676187226" duration="7337000" />
+      <workItem from="1562676187226" duration="7834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29823000" />
+    <option name="totallyTimeSpent" value="30320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="342" y="62" width="1549" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -336,12 +338,12 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="REPL" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25775978" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25775978" />
       <window_info anchor="right" id="Leiningen" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928476" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19584171" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -364,13 +366,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode/NO21/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="27" selection-start-line="5" selection-start-column="7" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode/No23/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -730,13 +725,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode/ABC/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="148">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#206#226#0" expanded="true" />
             <element signature="e#287#304#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode/No29/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
