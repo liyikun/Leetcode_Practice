@@ -7,9 +7,6 @@ public class Solution2 {
         int i = 0,j = 0;
         if(next.length == 0) return 0;
         getNext(next, needle);
-        for(int t : next) {
-            System.out.println(t);
-        }
         while (i < haystack.length() && j < needle.length()) {
             if(haystack.charAt(i) == needle.charAt(j)) {
                 i++;
