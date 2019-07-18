@@ -11,19 +11,22 @@ public class KthLargest {
         max = k;
         que =  new PriorityQueue<Integer>(max, new Comparator<Integer>() {
             public int compare(Integer o1, Integer o2) {
-                return -(o1 - o2);
+                return (o1 - o2);
             }
         });
         for(int i : nums) {
-            que.
+            this.add(i);
         }
     }
 
     public int add(int val) {
-        if(val > que.peek()) {
-            que.
+        if(que.size() < max) {
+            que.add(val);
+        } else if(val > que.peek()){
+            que.remove();
+            que.add(val);
         }
-        return 1;
+        return que.peek();
     }
 
 }
