@@ -11,7 +11,5 @@ public class Solution2 {
         next.next = head;
 
         return next;
-
-
     }
 }
