@@ -1,7 +1,5 @@
-package Leetcode.LRUCache;
+package Leetcode.No146;
 
-
-import com.sun.javafx.image.IntPixelGetter;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -9,7 +7,7 @@ import java.util.Map;
 public class LRUCache {
     Map<Integer, Integer> map ;
     public LRUCache(int capacity) {
-        map = new <Integer, Integer>LinkedHashMap(capacity) {
+        map = new <Integer, Integer>LinkedHashMap() {
             @Override
             protected boolean removeEldestEntry(Map.Entry eldest) {
                 return size() > capacity;
@@ -17,10 +15,18 @@ public class LRUCache {
         };
     }
     public int get(int key) {
-        return map.get(key);
+        if(!map.containsKey(key)) return -1;
+        int val = map.get(key);
+        map.remove(key);
+        this.put(key, val);
+        return val;
     }
 
     public void put(int key, int value) {
-        map.put(key,value);
+        if(map.containsKey(key)) {
+            map.remove(key);
+            map.put(key, value);
+        }
+        map.put(key, value);
     }
 }
